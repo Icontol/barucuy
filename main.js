@@ -27,7 +27,7 @@ import {
     useMultiFileAuthState,
     DisconnectReason,
     fetchLatestBaileysVersion 
-   } from '@adiwajshing/baileys'
+   } from '@queenanya/baileys'
 import { Low, JSONFile } from 'lowdb'
 
 import { makeWASocket, protoType, serialize } from './lib/simple.js'
@@ -87,7 +87,7 @@ global.loadDatabase = async function loadDatabase() {
 loadDatabase()
 
 global.authFolder = storeSys.fixFileName(`${opts._[0] || ''}sessions`)
-    let { state, saveCreds } = await useMultiFileAuthState(path.resolve('./sessions'))
+    let { state, saveCreds } = await useMultiFileAuthState(path.resolve('./sansbot'))
     let { version, isLatest } = await fetchLatestBaileysVersion()
     console.log(`using WA v${version.join('.')}, isLatest: ${isLatest}`)
 /*const store = storeSys.makeInMemoryStore()
