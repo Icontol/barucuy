@@ -1,4 +1,4 @@
-import { areJidsSameUser } from '@adiwajshing/baileys'
+import { areJidsSameUser } from '@queenanya/baileys'
 import moment from 'moment-timezone'
     let handler = async (m, { conn, usedPrefix, command }) => {
     let wib = moment.tz('Asia/Jakarta').format('HH:mm:ss')
