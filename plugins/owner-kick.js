@@ -1,4 +1,4 @@
-import { areJidsSameUser } from '@adiwajshing/baileys'
+import { areJidsSameUser } from '@queenanya/baileys'
 
 let handler = async (m, { conn, participants, isAdmin }) => {
     if (!isAdmin) {
