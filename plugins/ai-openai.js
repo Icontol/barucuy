@@ -1,6 +1,6 @@
 var { Configuration, OpenAIApi } = require("openai");
 var fetch = require("node-fetch");
-var { generateWAMessageFromContent } = require("@adiwajshing/baileys");
+var { generateWAMessageFromContent } = require("@queenanya/baileys");
 var fs = require("fs");
 
 let handler = async (m, { conn, text }) => {
