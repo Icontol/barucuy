@@ -5,7 +5,7 @@ import moment from 'moment-timezone'
 import os from 'os'
 import fs from 'fs'
 import fetch from 'node-fetch'
-const { generateWAMessageFromContent, proto } = (await import('@adiwajshing/baileys')).default
+const { generateWAMessageFromContent, proto } = (await import('@queenanya/baileys')).default
 
 const defaultMenu = {
   before: `❏ *𝙉𝙖𝙢𝙖:*  %name 
