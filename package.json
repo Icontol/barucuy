@@ -1,5 +1,5 @@
 {
-    "name": "Kilua - MD",
+    "name": "Sans - MD",
     "version": "1.0.0",
     "description": "Whatsapp Bot Rpg",
     "main": "index.js",
@@ -35,7 +35,7 @@
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
-        "@adiwajshing/baileys": "npm:baileys@^6.0.7",
+        "@queenanya/baileys": "^6.1.2",
         "@adiwajshing/keyed-db": "^0.2.4",
         "@vitalets/google-translate-api": "^8.0.0",
         "@arugaz/ai2d": "^1.0.1-z.8",
