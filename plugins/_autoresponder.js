@@ -1,5 +1,5 @@
 import fs from 'fs'
-let { MessageType } = (await import('@adiwajshing/baileys')).default
+let { MessageType } = (await import('@queenanya/baileys')).default
 let handler = m => m
 
 handler.all = async function (m, { isBlocked }) {
@@ -108,8 +108,8 @@ let pedalaman = dalam[Math.floor(Math.random() * dalam.length)]
 /* - - - - - - - Ini autoresponder by ryzn - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
     
-let fajri = /(fajri)/i
-    let beban = fajri.exec(m.text)
+let ivan = /(ivan)/i
+    let beban = ivan.exec(m.text)
     let jriban = [
 '😜',
 '😏',
